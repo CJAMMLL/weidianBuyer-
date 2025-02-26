@@ -13,9 +13,9 @@
 ## 系统要求
 
 - Python 3.9+
-- Google Chrome 浏览器
+- Google Chrome 浏览器 (测试版本：133.0.6943.127)
 - Windows 10/11
-- ChromeDriver (与Chrome浏览器版本对应)
+- ChromeDriver (测试版本：133.0.6943.127)
 
 ## 安装
 
@@ -53,6 +53,11 @@ python main.py  # 如果是源码运行
 
 ## 重要说明
 
+- 本程序在 Chrome 浏览器版本 133.0.6943.127 下完成测试
+- ChromeDriver 版本必须与 Chrome 浏览器版本完全匹配
+- 如果您的 Chrome 版本不是 133.0.6943.127：
+  1. 建议将 Chrome 更新/降级到此版本
+  2. 或下载与您的 Chrome 版本匹配的 ChromeDriver
 - 无论是运行源码(main.py)还是打包后的程序(exe)，都必须确保 chromedriver.exe 在同一目录下
 - 如果提示 ChromeDriver 版本不匹配，请下载对应版本并替换
 

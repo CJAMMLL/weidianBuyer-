@@ -8,10 +8,15 @@
 二、使用前准备
 -----------
 1. 确保您的电脑已安装 Google Chrome 浏览器
+   - 程序测试使用的 Chrome 版本：133.0.6943.127
+   - 建议将您的 Chrome 浏览器更新/降级到此版本
+   - 或根据您的 Chrome 版本下载对应的 ChromeDriver
+
 2. 确保网络连接稳定
 3. 提前注册并登录微店账号
 4. 将要抢购的商品提前加入购物车
 5. ChromeDriver 配置：
+   - 程序默认使用的 ChromeDriver 版本：133.0.6943.127
    - 程序首次运行时会自动下载 ChromeDriver
    - 如果自动下载失败，请按以下步骤手动配置：
      a. 下载 ChromeDriver：https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/133.0.6943.127/win64/chromedriver-win64.zip
@@ -99,8 +104,12 @@
 
 5. ChromeDriver 相关问题：
    - 提示"ChromeDriver不存在"：检查程序目录下是否有chromedriver.exe
-   - 提示"版本不匹配"：下载对应版本的ChromeDriver替换
-   - 浏览器无法启动：确认ChromeDriver与Chrome版本匹配
+   - 提示"版本不匹配"：
+     * 检查您的 Chrome 浏览器版本
+     * 如果不是 133.0.6943.127 版本，建议：
+       1. 将 Chrome 更新/降级到 133.0.6943.127
+       2. 或下载与您的 Chrome 版本匹配的 ChromeDriver
+   - 浏览器无法启动：确认 ChromeDriver 与 Chrome 版本完全匹配
 
 六、免责声明
 ----------
