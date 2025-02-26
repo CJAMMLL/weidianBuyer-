@@ -1,0 +1,5 @@
+PyQt5==5.15.9
+selenium==4.18.1
+webdriver_manager==4.0.1
+ntplib==0.4.0
+requests==2.31.0 
